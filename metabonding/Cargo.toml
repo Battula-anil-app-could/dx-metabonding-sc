@@ -1,0 +1,27 @@
+[package]
+name = "metabonding"
+version = "0.0.0"
+authors = ["Dorin Marian Iancu, dorin.iancu@dharitri.com"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+[dependencies.dharitri-sc]
+version = "=0.0.1"
+
+[dependencies.dharitri-sc-modules]
+version = "=0.0.1"
+
+[dependencies.sc_whitelist_module]
+git = "https://github.com/Battula-anil-app-could/dx-exchange-sc"
+
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+hex-literal = "0.3.4"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.0.1"
