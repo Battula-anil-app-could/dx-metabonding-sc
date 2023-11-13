@@ -15,7 +15,7 @@ version = "=0.1.5"
 
 [dependencies.sc_whitelist_module]
 git = "https://github.com/Battula-anil-app-could/dx-exchange-sc"
-rev = "fe2ad45"
+rev = "a516a97"
 
 [dev-dependencies]
 num-bigint = "0.4.2"
